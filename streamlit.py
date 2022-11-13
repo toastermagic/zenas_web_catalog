@@ -1,7 +1,7 @@
 import streamlit
 import snowflake.connector
 import pandas
-streamlit.title('EGP\'s Astonishing Webstore')
+streamlit.title('EGP\'s Wonderful Webstore')
 # connect to snowflake
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
